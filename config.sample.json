@@ -1,0 +1,10 @@
+{
+  "apiKey": "abcdefghijklmnopqrstuvwxyz",
+  "emailFrom": "alerts@example.com",
+  "emailTo": "me@example.com",
+  "temperatureThreshold": 25,
+  "timeout": 30,
+  "sensorPin": 4
+}
+
+
