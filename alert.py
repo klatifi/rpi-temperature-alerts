@@ -1,12 +1,15 @@
 #!/usr/bin/python
 
+import os
 import time
 import json
 import sendgrid
 import Adafruit_DHT
 
 # Get Config
-with open('config.json') as config_file:
+__location__ = os.path.realpath(
+  os.path.join(os.getcwd(), os.path.dirname(__file__)))
+with open(os.path.join(__location__, 'config.json')) as config_file:
   config = json.load(config_file)
 
 # Setup
